@@ -15,4 +15,14 @@ exports.sumOfAMultiple = function( n ) {
 };
 
 
+/*ALTERNATIVE CODE
 
+for (var i = n 1; i >0; i--){
+  switch(true){
+    case(i % 5 === 0):
+    case(i % 3 === 0);
+      sum += i;
+      break;
+  }
+}
+*/
